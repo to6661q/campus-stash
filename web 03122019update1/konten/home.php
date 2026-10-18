@@ -1,0 +1,1 @@
+<img src="image/terserah.jpg" height="400" width="1020"/>
