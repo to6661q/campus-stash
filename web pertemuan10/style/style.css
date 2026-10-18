@@ -1,0 +1,87 @@
+body{
+    font-family:verdana;
+	font-size: 12px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    border: blue dashed 1px;
+    background-color: #99CCFF;
+}
+
+#header h1 {
+    margin-left: 10px;
+}
+
+#sidebar {
+    float: left;
+    margin-top: 10px;
+    height: 280px;
+    width: 180px;
+    background-color: #99ccff;
+    border : blue dashed 1px;
+}
+
+#sidebar h3 {
+    margin-left: 10px;
+    font-family: 'trebuchet ms';
+}
+
+ul#navmenu {
+    display: block;
+    list-style-type: none;
+}
+
+ul#navmenu li {
+    margin-top: 5px;
+    margin-left: -40px
+}
+
+ul#navmenu a {
+    display : block;
+    text-decoration: none;
+    color: gold;
+    padding: 5px 5px 3px;
+    background-color: #003366;
+}
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+    background-color:  #333;
+    color: gold;
+}
+
+ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active {
+    background-color: #386088;
+    color: #fff;
+}
+
+ul#navmenu a.selected {
+    text-align: right;
+    cursor: default;
+}
+
+#page {
+    float: left;
+    width: 785px;
+    padding: 10px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: blue dashed 1px;
+}
+
+#clear {
+    clear:both;
+}
+
+#footer {
+    margin-top: 10px;
+    background-color: #99ccff;
+    border: blue dashed 1px;
+    text-align: center;
+}
