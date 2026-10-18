@@ -1,0 +1,185 @@
+/* Default */
+body{
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*pengaturan halaman*/
+#container {
+	width: 1250px;
+	font-size: 90%;
+	margin: 0 auto;
+	background: #BCFFF7;
+}
+
+/*pengaturan header*/
+#header{
+	padding: 10px;
+	width: 1230px;
+	height: 230px;
+	
+	background-image: url('iq-jongkok.jpg');
+}
+
+#header h1{
+	display: block;
+	width: 815px;
+	height: 110px;
+	padding: 10px;
+	color: #0a583e;
+	font-family: 'trebuchet ms', gaegu, hi-melody;
+}
+
+/* pengaturan side panel index*/
+#sidebar{
+	width: 200px;
+	background-color: #09C8F2;
+	border: #10cbdb dashed 1px;
+	padding: 15px 10px;
+	float: left;
+	margin-top: 10px;
+}
+
+.tombol_login{
+	background-color:   #5FFFE2;
+	color: #333;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.tombol_register{
+	background-color:  #5FFFE2;
+	color: #333;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.tombol_login:hover, .tombol_login:focus, .tombol_login:active{
+	background-color: #A9E3B2; 
+	color: #fff;
+}
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+.tulisan_login{
+	text-align: center;
+	color: #000000;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+/*pengaturan side panel halaman*/
+#sidebar2 {
+	border: #0000ff dashed 0px;
+	margin-top: 5px;
+	width: 1250px;
+	float: left;
+	background-color: #84e4ed;
+}
+
+#sidebar h3 {
+	color: #993300;
+	padding-left: 0px;
+	font-family: 'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+#sidebar h4{
+	width: 50px;
+    height: 20px;
+    margin-left: 150px;
+	left: 254px;
+	top: 964px;
+	color: #000000;
+	background: #C4C4C4;
+}
+
+/*pengaturan navigasi*/
+ul#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul#navmenu li {
+	margin-bottom: 0px;
+	display:inline-table;
+}
+
+ul#navmenu a {
+	
+	box-sizing : border-box;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	
+	display: block;
+	width: 200px;
+	height: auto;
+	background-color: #10cbdb;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+	background-color: #333;
+	color: #fff;
+}
+
+ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active {
+	background-color: #10cbdb;
+	color: #333;
+}
+
+ul#navmenu a.selected {
+	text-align: center;
+	cursor: default;
+}
+
+/* pengaturan content */
+#page{
+	padding: 10px;
+	width: 1000px;
+	float: left;
+}
+
+#page h2{
+	color: #10cbdb;
+	font-family: 'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+img{
+	border: none;
+}
+
+#clear{
+	clear: both;
+}
+
+/* pengaturan footer */
+#footer{
+	border: #10cbdb dashed 1px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #10cbdb;
+}
+#footer a{
+	color: #333;
+}
