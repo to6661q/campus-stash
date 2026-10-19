@@ -1,0 +1,9 @@
+<?php
+	include"koneksi/koneksi.php";
+	$id=$_GET['id'];
+	$hapus="delete from user where id='$id'";
+	$hasil=mysql_query($hapus);
+	if($hapus){
+			echo"<script>alert('data berhasil dihapus');window.location.href='halmin.php?module=view#pos';</script>";
+		}
+?>
