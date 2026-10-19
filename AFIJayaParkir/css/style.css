@@ -1,0 +1,214 @@
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+#Templete {
+	height: 100%;
+	width: 100%;
+}
+
+#header {
+	height: 130px;
+	width:auto;
+	border: 1px solid #000;
+	background-color: dodgerblue;
+}
+
+#menu {
+	height: 50px;
+	width: auto;
+	background-color: #778899;
+	text-align: left;
+}
+
+
+#menu h2 {
+	display: inline-block;
+	font-family: sans-serif;
+	text-align: left;	
+}
+
+#menu ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	float: right;
+	list-style:none;
+}
+
+#menu li {
+	display:inline;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #778899;
+	font-family: Arial;
+}
+
+.navbar a{
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #333;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 90px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}		
+
+#artikel {
+	height:900px; 
+	width: 1349px;
+	background-color: white;
+}
+
+#sidebar {
+	width: 250px;
+	height: 900px;
+	background-color:dodgerblue;
+	float: left;
+}
+
+#conten {
+	width:1050px;
+	float: left;
+	margin: 13px;
+	border-radius:5px;
+	background-color:white;
+	box-shadow: 0px 0px 5px grey;
+	padding: 30px;
+}
+
+.sidebar {
+	margin:0;
+	padding:0;
+	width: 200px;
+	background-color: #f1f1f1;
+	height: 100%;
+	overflow: auto;
+	float: left;
+}
+
+.sidebar a {
+	display: block;
+	color:black;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.sidebar a.active {
+	background-color:dodgerblue;
+	color: white;
+}
+
+.sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+#footer {	
+	padding: 5px;
+	width: auto;
+	text-align: center;
+	color: #fff;
+	background-color: #778899;
+	
+}	
+
+#clear {
+	clear: both;
+}
+
+.form div.grup{
+    margin: 10px 0;
+    width: 30%;
+}
+ 
+.form div.grup label,
+.form div.grup input{
+    display: block;
+}
+ 
+.form div.grup label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+ 
+.form div.grup input[type="text"],
+.form div.grup input[type="password"],
+.form div.grup input[type="number"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+    border: 1px solid grey;
+    color: #000;
+}
+ 
+.form div.grup input[type="submit"], 
+.form div.grup input[type="reset"], 
+.form div.grup a{
+    background: #33cd77;
+    padding: 4px 16px;
+    margin: 0 auto;
+    margin-right: 5px;
+    border: 1px solid #33cd77;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+}
